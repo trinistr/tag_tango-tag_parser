@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "bundler/setup"
+require "tag_tango/tag_parser"
+
+# Immediately fail if something doesn't load.
+TagTango::TagParser.loader.eager_load
+
+# Request Zeitwerk to reload this gem.
+def reload!
+  TagTango::TagParser.loader.reload
+end
+
+require "pry"
+Pry.start
