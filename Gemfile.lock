@@ -1,5 +1,6 @@
-PATH
-  remote: ../tag_tango-core
+GIT
+  remote: https://github.com/trinistr/tag_tango-core.git
+  revision: d3044c600593b35f532ba0953bca4e06ee74fe4d
   specs:
     tag_tango-core (0.2.0)
       dry-initializer (~> 3)

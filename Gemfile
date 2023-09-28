@@ -2,11 +2,9 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in tag_tango-tag_parser.gemspec
 gemspec
 
-# gem "tag_tango-core", git: "git@github.com:trinistr/tag_tango-core.git"
-gem "tag_tango-core", path: "../tag_tango-core"
+gem "tag_tango-core", git: "https://github.com/trinistr/tag_tango-core.git"
 
 group :doc do
   gem "yard"
