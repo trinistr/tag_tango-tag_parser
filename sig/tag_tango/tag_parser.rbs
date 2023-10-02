@@ -1,6 +1,6 @@
 # See the writing guide of rbs: https://github.com/ruby/rbs#guides
 
-module Tdfs
+module TagTango
   module TagParser
     VERSION: String
     def self.loader: () -> Zeitwerk::Loader
